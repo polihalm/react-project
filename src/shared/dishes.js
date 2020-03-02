@@ -1,4 +1,5 @@
 export const DISHES =
+// this is an array of JS objects
     [
         {
         id: 0,

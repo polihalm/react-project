@@ -9,9 +9,9 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-
-    this.state = {
-      dishes: DISHES
+    // in order to be stored, state needs to be defined in the constructor
+    this.state = { // lifted from menu component
+      dishes: DISHES // name:value (const DISHES in dishes.js)
     };
   }
 
@@ -23,10 +23,10 @@ class App extends Component {
          <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
         </div>
        </Navbar>
-       <Menu dishes={this.state.dishes}/>
+       <Menu dishes={this.state.dishes}/> 
       </div>
     );
   }
 }
-
+// exports in order to be imported in index.js
 export default App;
