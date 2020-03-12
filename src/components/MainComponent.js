@@ -36,5 +36,5 @@ class Main extends Component {
     );
   }
 }
-// exports in order to be imported in index.js
+
 export default Main;

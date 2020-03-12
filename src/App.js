@@ -13,5 +13,5 @@ class App extends Component {
     );
   }
 }
-// exports in order to be imported in index.js
+
 export default App;
