@@ -12,8 +12,7 @@ import { Card, CardImg, CardImgOverlay, CardText, CardTitle, CardBody } from 're
     );
   }
 
-
-  const Menu = (props) => {
+    const Menu = (props) => {
 
     const menu = props.dishes.map((dish) => {
      return (
