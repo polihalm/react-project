@@ -23,7 +23,7 @@ function About(props) {
 
     const leaders = props.leaders.map((leader) => {
         return (
-            <div key={leader.id} className="col-12 col-md-12 m-1">
+            <div>
               <RenderLeader leader={leader}/>
             </div>
         );
