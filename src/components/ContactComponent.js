@@ -31,7 +31,6 @@ class Contact extends Component {
   }
 
   handleInputChange(event) {
-
     const target = event.target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
     const name = target.name;
@@ -43,7 +42,6 @@ class Contact extends Component {
   }
 
   handleSubmit(event) {
-
     console.log("Current State is: " + JSON.stringify(this.state));
     alert("Current State is: " + JSON.stringify(this.state));
     event.preventDefault();
